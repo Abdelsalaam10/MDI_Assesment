@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Generate Reports">
+    <listeners>
+          <listener class-name="Listener" />
+      </listeners>
+    <test name="Report">
+        <classes>
+            <class name="testcases" />
+        </classes>
+    </test>
+</suite>
+
+
